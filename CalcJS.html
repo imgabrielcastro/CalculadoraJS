@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css" >
+    <link rel="icon" type="image/x-icon" href="./imgs/favicon.png">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora JavaScript</h1>
+    </header>
+
+    <div id="calculator">
+        <div id="result">0</div>
+        <div class="numbers">
+            <button class="bg-gray" onclick="clean()">C</button>
+            <button class="bg-gray" onclick="backs()" ><</button>
+            <button class="bg-gray" onclick="insert('%')">%</button>
+            <button class="bg-orange" onclick="insert('÷')">÷</button>
+            <button class="bg-light-gray" onclick="insert('7')">7</button>
+            <button class="bg-light-gray" onclick="insert('8')" >8</button>
+            <button class="bg-light-gray" onclick="insert('9')" >9</button>
+            <button class="bg-orange" onclick="insert('x')">x</button>
+            <button class="bg-light-gray" onclick="insert('4')">4</button>
+            <button class="bg-light-gray" onclick="insert('5')">5</button>
+            <button class="bg-light-gray" onclick="insert('6')">6</button>
+            <button class="bg-orange" onclick="insert('-')">-</button>
+            <button class="bg-light-gray" onclick="insert('1')">1</button>
+            <button class="bg-light-gray" onclick="insert('2')">2</button>
+            <button class="bg-light-gray" onclick="insert('3')">3</button>
+            <button class="bg-orange" onclick="insert('+')">+</button>
+            <button class="bg-light-gray" id="zero" onclick="insert('0')">0</button>
+            <button class="bg-light-gray" onclick="insert('.')">.</button>
+            <button class="bg-orange" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Gabriel Castro</p>
+    </footer>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
