@@ -5,15 +5,15 @@
 }
 
 body {
-    background-color: rgb(78, 41, 5);
-    font: normal 13pt Arial;
+    background-color: rgba(95, 56, 16, 0.753);
+    font-family: Roboto, Helvetica Neue, sans-serif;
 }
 
 header{
 color: white;
 text-align: center;
 margin: 20px;
-font-family: Arial, Helvetica, sans-serif;
+font-family: Roboto, Helvetica Neue, sans-serif;
 }
 
 footer{
@@ -99,4 +99,17 @@ footer{
 
 .bg-gray:hover {
     background-color: rgba(105, 100, 100, 0.664);
+}
+
+footer img {
+    width: 30px; 
+    height: 30px; 
+    margin-left: 5px; 
+}
+
+footer{
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto, Helvetica Neue, sans-serif;
 }
